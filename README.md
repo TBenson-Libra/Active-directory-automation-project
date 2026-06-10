@@ -14,7 +14,7 @@ A collection of operational Python scripts designed to automate routine system a
    - uses local input within the code instead of scanning for an outside source connection
 
 
-2. **`ad_onboard.py` (Automated Provisioning & IAM)**
+3. **`ad_onboard.py` (Automated Provisioning & IAM)**
    - Automates bulk user onboarding by parsing name directories into standard corporate `samAccountName` formatting.
    - Utilizes the cryptographically secure `secrets` library to auto-generate highly compliant, randomized temporary passwords.
    - Generates staging credentials ready for identity database injection.
